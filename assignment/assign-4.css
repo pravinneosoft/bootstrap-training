@@ -1,0 +1,119 @@
+.list{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.list1{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.list2{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.list3{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.list4{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.list5{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.first{
+    border: 2px solid red;
+    width: 20px;
+    height:30px;
+}
+.second{
+    border: 2px solid red;
+    width: 15px;
+    height: 15px;
+}
+.third{
+    border: 2px solid red;
+    width: 20px;
+    height: 40px;
+}
+.four{
+    border: 2px solid red;
+    width: 20px;
+    height: 50px;
+}
+.alignitems{
+    display: flex;
+    gap:70px;
+    flex-wrap: wrap;
+}
+.align{
+    background-color: black;
+    column-gap: 20px;
+    height:200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: red green blue yellow;
+}
+.alingdiv{
+    display: flex;
+    gap:30px;
+    flex-wrap:nowrap;
+}
+.align-start{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.align-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.align-end{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; 
+}
+.align-baseline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline; 
+}
+.align-strech{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:stretch; 
+}
+.growdiv{
+    display: flex;
+    flex-grow: 6;
+}
+.grow{
+    border: 2px solid red;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-radius: 5px;
+}
